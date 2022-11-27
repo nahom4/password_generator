@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="super">
+            <div class="major">
+                    <h2>Generate a<br> <span id="right">random password</span></h1>
+                    <p>Never use an insecure password again</p>
+                    <input id="input" type="text" placeholder="length"> 
+                    <div class="opt">
+                        <label>Choose format</label>
+                        <select id="target">
+                            <option>Symbol</option>
+                            <option>Number</option>
+                            <option>Both</option>
+                        </select>
+                        
+                    </div>
+                   
+                    <div id="btn">
+                        
+                        <button onclick="generate()">Generate Passwords</button>
+                    </div>
+            
+                    <hr id="line">
+                    <div class="con">
+                    <div onclick="cp()" id ="first" class="box"></div>
+                    <div onclick="cp2()" id ="second" class="box"></div>
+                    </div>
+            </div>
+    </div>
+        <script src="index.js"></script>
+    </body>
+</html>
